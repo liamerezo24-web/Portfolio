@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    max-width: 100%;
+
+}
+.rows {
+    display: grid;
+    width: 100%;
+}
+
+.page {
+    background-color: white;
+    width: 100%;
+}
+
+.nav {
+    background-color: #383c75;
+    top: 0px;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 750px;
+    color: white;
+}
+
+.contact-icon .icon {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+.aboutme_page {
+    margin-top: 120px;
+    height: 800px;
+    align-items: center;
+    width: 1357.14px;
+    justify-content: center;
+}
+
+.about_page {
+    display: flex;
+    align-items: center;
+}
+
+.text_box {
+    margin-left: 150px;
+    width: 400px;
+}
+
+.text_box h1 {font-size: 50px; margin-bottom: 10px; display: block;}
+.text_box p {font-size: 20px; line-height: 1.6;}
+
+.img_box img{
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
+.second_page {
+    height: 800px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.skill_sect {
+    display: flex;
+    margin-top: 50px;
+}
+
+.skill_box {
+    font-size: 40px;
+    margin-top: 20px;
+    background-color: #383c75;
+    color: white;
+    border-width: 0px;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    padding-top: 10px;
+    width: 1357.14px;
+}
+
+
+
+
+.skill_item img {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+}
+.skill_item p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.third_page {
+    height: 800px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.educ_title_box h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: #383c75;
+    color: white;
+    border-width: 0px;
+    text-align: center;
+    height: 80px;
+    padding-top: 10px;
+    width: 1357.14px;
+}
+
+.school {
+    align-items: center;
+    text-align: center;
+}
+
+.educ_title {
+    display: flex;
+    justify-content: center;
+}
+
+.school_logo {
+    margin: 30px;
+}
+
+.school_info p {
+    width: 250px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.fourth_page {
+    height: 800px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.certificate_title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: #383c75;
+    color: white;
+    border-width: 0px;
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    padding-top: 10px;
+    display: block;
+    margin-top: 15px;
+    width: 1357.14px;
+}
+
+.python_certi img {
+    width: 500px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.bottom_bar {
+    background-color: #383c75;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.bottom_bar p {
+    margin-top: 45px;
+}
